@@ -96,3 +96,16 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## 確認
+
+```bash
+curl -X POST http://localhost:3000/todos \
+-H "Content-Type: application/json" \
+-d '{"title": "NestJSを学ぶ"}'
+
+curl http://localhost:3000/todos
+```
+<img width="532" alt="スクリーンショット 2025-05-14 14 32 54" src="https://github.com/user-attachments/assets/fcab5a76-f5b4-4ea8-b86a-70f590e53625" />
+
+
